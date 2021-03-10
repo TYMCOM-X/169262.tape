@@ -1,0 +1,402 @@
+.sysno
+TYMSHARE C897-P034/L23 4-25-84
+.sys g
+
+TYMSHARE C897-P034/L23 4-25-84 at  0:00:51 on Tue May 15,1984
+5 jobs in use out of 39.  1 detached
+
+Users=5 Det=1 [3,3], Queues: RUN=1 DIO=0 TIO=2 IO=0 SPC=2
+
+DSKB: 158533 Pages free, 5 users
+
+.run 1000
+Test> help
+
+ <esc>	Exit
+MEMORY	Virtual memory tests
+OUTPUT	Disk file output tests
+INPUT	Disk file input tests
+UUOS	File UUO-combination tests
+TAPE	Magnetic tape r/w tests
+CPU	CPU instruction exercises
+HELP	This list of commands
+REPEAT	Set the REPEAT count (default 1)
+QUIT	Leave the program
+ALL	Perform all repeatable functions
+
+Test> repeat 10
+
+
+Test> all
+
+Virtual memory tests
+  * vcreate each 1 by 1 REF:	2783 ms  Times/sec: 91.98
+  * vcreate each PRE REF:	3967 ms  Times/sec: 64.53
+  * vcreate at once REF:	2733 ms  Times/sec: 93.66
+  * vcreate at once WS PREREF:	3050 ms  Times/sec: 83.93
+  * vcreate .prro REF remove:	4717 ms  Times/sec: 54.27
+  * vcreate .prrw CHG remove:	4567 ms  Times/sec: 56.05
+  * vcreate .prcw CHG remove:	4567 ms  Times/sec: 56.05
+Virtual memory tests
+  * vcreate each 1 by 1 REF:	2934 ms  Times/sec: 87.25
+  * vcreate each PRE REF:	2950 ms  Times/sec: 86.77
+  * vcreate at once REF:	2550 ms  Times/sec: 100.39
+  * vcreate at once WS PREREF:	2850 ms  Times/sec: 89.82
+  * vcreate .prro REF remove:	4333 ms  Times/sec: 59.08
+  * vcreate .prrw CHG remove:	7050 ms  Times/sec: 36.31
+  * vcreate .prcw CHG remove:	4350 ms  Times/sec: 58.85
+Virtual memory tests
+  * vcreate each 1 by 1 REF:	2817 ms  Times/sec: 90.87
+  * vcreate each PRE REF:	2650 ms  Times/sec: 96.60
+  * vcreate at once REF:	2667 ms  Times/sec: 95.98
+  * vcreate at once WS PREREF:	2616 ms  Times/sec: 97.85
+  * vcreate .prro REF remove:	4317 ms  Times/sec: 59.30
+  * vcreate .prrw CHG remove:	4333 ms  Times/sec: 59.08
+  * vcreate .prcw CHG remove:	4333 ms  Times/sec: 59.08
+Virtual memory tests
+  * vcreate each 1 by 1 REF:	2784 ms  Times/sec: 91.95
+  * vcreate each PRE REF:	2750 ms  Times/sec: 93.09
+  * vcreate at once REF:	2566 ms  Times/sec: 99.76
+  * vcreate at once WS PREREF:	2484 ms  Times/sec: 103.05
+  * vcreate .prro REF remove:	5033 ms  Times/sec: 50.86
+  * vcreate .prrw CHG remove:	4450 ms  Times/sec: 57.52
+  * vcreate .prcw CHG remove:	4350 ms  Times/sec: 58.85
+Virtual memory tests
+  * vcreate each 1 by 1 REF:	2800 ms  Times/sec: 91.42
+  * vcreate each PRE REF:	2666 ms  Times/sec: 96.02
+  * vcreate at once REF:	2666 ms  Times/sec: 96.02
+  * vcreate at once WS PREREF:	2600 ms  Times/sec: 98.46
+  * vcreate .prro REF remove:	4317 ms  Times/sec: 59.30
+  * vcreate .prrw CHG remove:	4417 ms  Times/sec: 57.95
+  * vcreate .prcw CHG remove:	4333 ms  Times/sec: 59.08
+Virtual memory tests
+  * vcreate each 1 by 1 REF:	2784 ms  Times/sec: 91.95
+  * vcreate each PRE REF:	2783 ms  Times/sec: 91.98
+  * vcreate at once REF:	2567 ms  Times/sec: 99.72
+  * vcreate at once WS PREREF:	2600 ms  Times/sec: 98.46
+  * vcreate .prro REF remove:	4317 ms  Times/sec: 59.30
+  * vcreate .prrw CHG remove:	4334 ms  Times/sec: 59.06
+  * vcreate .prcw CHG remove:	4350 ms  Times/sec: 58.85
+Virtual memory tests
+  * vcreate each 1 by 1 REF:	2800 ms  Times/sec: 91.42
+  * vcreate each PRE REF:	2650 ms  Times/sec: 96.60
+  * vcreate at once REF:	2666 ms  Times/sec: 96.02
+  * vcreate at once WS PREREF:	2484 ms  Times/sec: 103.05
+  * vcreate .prro REF remove:	4417 ms  Times/sec: 57.95
+  * vcreate .prrw CHG remove:	4350 ms  Times/sec: 58.85
+  * vcreate .prcw CHG remove:	4333 ms  Times/sec: 59.08
+Virtual memory tests
+  * vcreate each 1 by 1 REF:	2783 ms  Times/sec: 91.98
+  * vcreate each PRE REF:	3000 ms  Times/sec: 85.33
+  * vcreate at once REF:	2667 ms  Times/sec: 95.98
+  * vcreate at once WS PREREF:	2483 ms  Times/sec: 103.10
+  * vcreate .prro REF remove:	4416 ms  Times/sec: 57.97
+  * vcreate .prrw CHG remove:	4350 ms  Times/sec: 58.85
+  * vcreate .prcw CHG remove:	4333 ms  Times/sec: 59.08
+Virtual memory tests
+  * vcreate each 1 by 1 REF:	2833 ms  Times/sec: 90.36
+  * vcreate each PRE REF:	2767 ms  Times/sec: 92.51
+  * vcreate at once REF:	2567 ms  Times/sec: 99.72
+  * vcreate at once WS PREREF:	2483 ms  Times/sec: 103.10
+  * vcreate .prro REF remove:	4416 ms  Times/sec: 57.97
+  * vcreate .prrw CHG remove:	4350 ms  Times/sec: 58.85
+  * vcreate .prcw CHG remove:	4333 ms  Times/sec: 59.08
+Virtual memory tests
+  * vcreate each 1 by 1 REF:	2784 ms  Times/sec: 91.95
+  * vcreate each PRE REF:	2750 ms  Times/sec: 93.09
+  * vcreate at once REF:	2466 ms  Times/sec: 103.81
+  * vcreate at once WS PREREF:	2683 ms  Times/sec: 95.41
+  * vcreate .prro REF remove:	4317 ms  Times/sec: 59.30
+  * vcreate .prrw CHG remove:	4334 ms  Times/sec: 59.06
+  * vcreate .prcw CHG remove:	4334 ms  Times/sec: 59.06
+Disk file output tests
+  * Create each page 1 by 1:	11933 ms  Times/sec: 21.45
+  * Create pages all at once:	13267 ms  Times/sec: 19.29
+  * Dump output DSK blocks:	39366 ms  Times/sec: 6.50
+  * Dump output DSK pages:	20767 ms  Times/sec: 12.32
+Disk file output tests
+  * Create each page 1 by 1:	11850 ms  Times/sec: 21.60
+  * Create pages all at once:	13317 ms  Times/sec: 19.22
+  * Dump output DSK blocks:	39484 ms  Times/sec: 6.48
+  * Dump output DSK pages:	20650 ms  Times/sec: 12.39
+Disk file output tests
+  * Create each page 1 by 1:	11850 ms  Times/sec: 21.60
+  * Create pages all at once:	13217 ms  Times/sec: 19.36
+  * Dump output DSK blocks:	39400 ms  Times/sec: 6.49
+  * Dump output DSK pages:	20533 ms  Times/sec: 12.46
+Disk file output tests
+  * Create each page 1 by 1:	13050 ms  Times/sec: 19.61
+  * Create pages all at once:	13333 ms  Times/sec: 19.20
+  * Dump output DSK blocks:	39250 ms  Times/sec: 6.52
+  * Dump output DSK pages:	20516 ms  Times/sec: 12.47
+Disk file output tests
+  * Create each page 1 by 1:	11717 ms  Times/sec: 21.84
+  * Create pages all at once:	13317 ms  Times/sec: 19.22
+  * Dump output DSK blocks:	39383 ms  Times/sec: 6.50
+  * Dump output DSK pages:	20600 ms  Times/sec: 12.42
+Disk file output tests
+  * Create each page 1 by 1:	11950 ms  Times/sec: 21.42
+  * Create pages all at once:	13317 ms  Times/sec: 19.22
+  * Dump output DSK blocks:	39850 ms  Times/sec: 6.42
+  * Dump output DSK pages:	20683 ms  Times/sec: 12.37
+Disk file output tests
+  * Create each page 1 by 1:	11867 ms  Times/sec: 21.57
+  * Create pages all at once:	13383 ms  Times/sec: 19.12
+  * Dump output DSK blocks:	39200 ms  Times/sec: 6.53
+  * Dump output DSK pages:	20500 ms  Times/sec: 12.48
+Disk file output tests
+  * Create each page 1 by 1:	11867 ms  Times/sec: 21.57
+  * Create pages all at once:	13200 ms  Times/sec: 19.39
+  * Dump output DSK blocks:	39334 ms  Times/sec: 6.50
+  * Dump output DSK pages:	20500 ms  Times/sec: 12.48
+Disk file output tests
+  * Create each page 1 by 1:	11800 ms  Times/sec: 21.69
+  * Create pages all at once:	13250 ms  Times/sec: 19.32
+  * Dump output DSK blocks:	39334 ms  Times/sec: 6.50
+  * Dump output DSK pages:	20550 ms  Times/sec: 12.45
+Disk file output tests
+  * Create each page 1 by 1:	11717 ms  Times/sec: 21.84
+  * Create pages all at once:	13283 ms  Times/sec: 19.27
+  * Dump output DSK blocks:	39333 ms  Times/sec: 6.50
+  * Dump output DSK pages:	20550 ms  Times/sec: 12.45
+Disk file input tests
+  * Delete each page 1 by 1:	1550 ms  Times/sec: 165.16
+  * Truncate then delete page:	534 ms  Times/sec: 479.40
+  * Dump input DSK blocks:	7200 ms  Times/sec: 35.55
+  * Dump input DSK pages:	4733 ms  Times/sec: 54.08
+  * Map in each page 1 by 1:	1517 ms  Times/sec: 168.75
+  * Map in pages all at once:	767 ms  Times/sec: 333.76
+Disk file input tests
+  * Delete each page 1 by 1:	1550 ms  Times/sec: 165.16
+  * Truncate then delete page:	533 ms  Times/sec: 480.30
+  * Dump input DSK blocks:	6816 ms  Times/sec: 37.55
+  * Dump input DSK pages:	4717 ms  Times/sec: 54.27
+  * Map in each page 1 by 1:	1534 ms  Times/sec: 166.88
+  * Map in pages all at once:	750 ms  Times/sec: 341.33
+Disk file input tests
+  * Delete each page 1 by 1:	1566 ms  Times/sec: 163.47
+  * Truncate then delete page:	534 ms  Times/sec: 479.40
+  * Dump input DSK blocks:	6800 ms  Times/sec: 37.64
+  * Dump input DSK pages:	4750 ms  Times/sec: 53.89
+  * Map in each page 1 by 1:	1517 ms  Times/sec: 168.75
+  * Map in pages all at once:	767 ms  Times/sec: 333.76
+Disk file input tests
+  * Delete each page 1 by 1:	1533 ms  Times/sec: 166.99
+  * Truncate then delete page:	534 ms  Times/sec: 479.40
+  * Dump input DSK blocks:	6817 ms  Times/sec: 37.55
+  * Dump input DSK pages:	4733 ms  Times/sec: 54.08
+  * Map in each page 1 by 1:	1534 ms  Times/sec: 166.88
+  * Map in pages all at once:	750 ms  Times/sec: 341.33
+Disk file input tests
+  * Delete each page 1 by 1:	1567 ms  Times/sec: 163.36
+  * Truncate then delete page:	534 ms  Times/sec: 479.40
+  * Dump input DSK blocks:	6816 ms  Times/sec: 37.55
+  * Dump input DSK pages:	4734 ms  Times/sec: 54.07
+  * Map in each page 1 by 1:	1533 ms  Times/sec: 166.99
+  * Map in pages all at once:	767 ms  Times/sec: 333.76
+Disk file input tests
+  * Delete each page 1 by 1:	1534 ms  Times/sec: 166.88
+  * Truncate then delete page:	517 ms  Times/sec: 495.16
+  * Dump input DSK blocks:	6850 ms  Times/sec: 37.37
+  * Dump  DSK pages:	4733 ms  Times/sec: 54.08
+  * Map in each page 1 by 1:	1534 ms  Times/sec: 166.88
+  * Map in pages all at once:	767 ms  Times/sec: 333.76
+Disk file input tests
+  * Delete each page 1 by 1:	1567 ms  Times/sec: 163.36
+  * Truncate then delete page:	550 ms  Times/sec: 465.45
+  * Dump input DSK blocks:	6816 ms  Times/sec: 37.55
+  * Dump input DSK pages:	4750 ms  Times/sec: 53.89
+  * Map in each page 1 by 1:	1516 ms  Times/sec: 168.86
+  * Map in pages all at once:	817 ms  Times/sec: 313.34
+Disk file input tests
+  * Delete each page 1 by 1:	1516 ms  Times/sec: 168.86
+  * Truncate then delete page:	534 ms  Times/sec: 479.40
+  * Dump input DSK blocks:	6800 ms  Times/sec: 37.64
+  * Dump input DSK pages:	4700 ms  Times/sec: 54.46
+  * Map in each page 1 by 1:	1567 ms  Times/sec: 163.36
+  * Map in pages all at once:	766 ms  Times/sec: 334.20
+Disk file input tests
+  * Delete each page 1 by 1:	1517 ms  Times/sec: 168.75
+  * Truncate then delete page:	533 ms  Times/sec: 480.30
+  * Dump input DSK blocks:	6833 ms  Times/sec: 37.46
+  * Dump input DSK pages:	4733 ms  Times/sec: 54.08
+  * Map in each page 1 by 1:	1534 ms  Times/sec: 166.88
+  * Map in pages all at once:	816 ms  Times/sec: 313.72
+Disk file input tests
+  * Delete each page 1 by 1:	1534 ms  Times/sec: 166.88
+  * Truncate then delete page:	550 ms  Times/sec: 465.45
+  * Dump input DSK blocks:	6833 ms  Times/sec: 37.46
+  * Dump input DSK pages:	4733 ms  Times/sec: 54.08
+  * Map in each page 1 by 1:	1534 ms  Times/sec: 166.88
+  * Map in pages all at once:	783 ms  Times/sec: 326.94
+File UUO-combination tests
+  * Create files:	21817 ms  Times/sec: 11.73
+  * Supercede files:	33650 ms  Times/sec: 7.60
+  * Delete files:	22084 ms  Times/sec: 11.59
+  * Update new files:	22400 ms  Times/sec: 11.42
+  * Update old files:	30450 ms  Times/sec: 8.40
+  * Delete files:	22150 ms  Times/sec: 11.55
+File UUO-combination tests
+  * Create files:	21716 ms  Times/sec: 11.78
+  * Supercede files:	33767 ms  Times/sec: 7.58
+  * Delete files:	22034 ms  Times/sec: 11.61
+  * Update new files:	22417 ms  Times/sec: 11.41
+  * Update old files:	30517 ms  Times/sec: 8.38
+  * Delete files:	22066 ms  Times/sec: 11.60
+File UUO-combination tests
+  * Create files:	22533 ms  Times/sec: 11.36
+  * Supercede files:	34350 ms  Times/sec: 7.45
+  * Delete files:	22050 ms  Times/sec: 11.60
+  * Update new files:	22417 ms  Times/sec: 11.41
+  * Update old files:	29933 ms  Times/sec: 8.55
+  * Delete files:	22016 ms  Times/sec: 11.62
+File UUO-combination tests
+  * Create files:	21467 ms  Times/sec: 11.92
+  * Supercede files:	33650 ms  Times/sec: 7.60
+  * Delete files:	21917 ms  Times/sec: 11.68
+  * Update new files:	22366 ms  Times/sec: 11.44
+  * Update old files:	31183 ms  Times/sec: 8.20
+  * Delete files:	21933 ms  Times/sec: 11.67
+File UUO-combination tests
+  * Create files:	21583 ms  Times/sec: 11.86
+  * Supercede files:	33283 ms  Times/sec: 7.69
+  * Delete files:	22050 ms  Times/sec: 11.60
+  * Update new files:	22133 ms  Times/sec: 11.56
+  * Update old files:	30016 ms  Times/sec: 8.52
+  * Delete files:	21933 ms  Times/sec: 11.67
+File UUO-combination tests
+  * Create files:	21667 ms  Times/sec: 11.81
+  * Supercede files:	33517 ms  Times/sec: 7.63
+  * Delete files:	24283 ms  Times/sec: 10.54
+  * Update new files:	24633 ms  Times/sec: 10.39
+  * Update old files:	33250 ms  Times/sec: 7.69
+  * Delete files:	25917 ms  Times/sec: 9.87
+File UUO-combination tests
+  * Create files:	22683 ms  Times/sec: 11.28
+  * Supercede files:	35583 ms  Times/sec: 7.19
+  * Delete files:	22116 ms  Times/sec: 11.57
+  * Update new files:	22933 ms  Times/sec: 11.16
+  * Update old files:	31483 ms  Times/sec: 8.13
+  * Delete files:	22100 ms  Times/sec: 11.58
+File UUO-combination tests
+  * Create files:	23700 ms  Times/sec: 10.80
+  * Supercede files:	38200 ms  Times/sec: 6.70
+  * Delete files:	22050 ms  Times/sec: 11.60
+  * Update new files:	22400 ms  Times/sec: 11.42
+  * Update old files:	30283 ms  Times/sec: 8.45
+  * Delete files:	22083 ms  Times/sec: 11.59
+File UUO-combination tests
+  * Create files:	21633 ms  Times/sec: 11.83
+  * Supercede files:	34933 ms  Times/sec: 7.32
+  * Delete files:	24133 ms  Times/sec: 10.60
+  * Update new files:	23250 ms  Times/sec: 11.01
+  * Update old files:	31750 ms  Times/sec: 8.06
+  * Delete files:	22017 ms  Times/sec: 11.62
+File UUO-combination tests
+  * Create files:	21700 ms  Times/sec: 11.79
+  * Supercede files:	33100 ms  Times/sec: 7.73
+  * Delete files:	22000 ms  Times/sec: 11.63
+  * Update new files:	22383 ms  Times/sec: 11.43
+  * Update old files:	30350 ms  Times/sec: 8.43
+  * Delete files:	22084 ms  Times/sec: 11.59
+Magnetic tape r/w tests
+  * Write tape:	No device FTA available.  Please assign the proper devices.
+CPU instruction exercises
+  * Data word manipulations:	3250 ms  Times/sec: 78.76
+  * Logical word operations:	2250 ms  Times/sec: 113.77
+  * Skip Jump and Compare :	2450 ms  Times/sec: 104.48
+  * Shifts and Rotation:	10500 ms  Times/sec: 24.38
+  * Integer  arithmetic:	12083 ms  Times/sec: 21.18
+  * Floating point code:	25050 ms  Times/sec: 10.21
+  * Bit test operations:	3167 ms  Times/sec: 80.83
+CPU instruction exercises
+  * Data word manipulations:	3217 ms  Times/sec: 79.57
+  * Logical word operations:	2283 ms  Times/sec: 112.13
+  * Skip Jump and Compare :	2634 ms  Times/sec: 97.19
+  * Shifts and Rotation:	10483 ms  Times/sec: 24.42
+  * Integer  arithmetic:	12083 ms  Times/sec: 21.18
+  * Floating point code:	25217 ms  Times/sec: 10.15
+  * Bit test operations:	3284 ms  Times/sec: 77.95
+CPU instruction exercises
+  * Data word manipulations:	3100 ms  Times/sec: 82.58
+  * Logical word operations:	2284 ms  Times/sec: 112.08
+  * Skip Jump and Compare :	2467 ms  Times/sec: 103.76
+  * Shifts and Rotation:	10500 ms  Times/sec: 24.38
+  * Integer  arithmetic:	12100 ms  Times/sec: 21.15
+  * Floating point code:	25317 ms  Times/sec: 10.11
+  * Bit test operations:	3300 ms  Times/sec: 77.57
+CPU instruction exercises
+  * Data word manipulations:	3100 ms  Times/sec: 82.58
+  * Logical word operations:	2284 ms  Times/sec: 112.08
+  * Skip Jump and Compare :	2567 ms  Times/sec: 99.72
+  * Shifts and Rotation:	10433 ms  Times/sec: 24.53
+  * Integer  arithmetic:	12084 ms  Times/sec: 21.18
+  * Floating point code:	25300 ms  Times/sec: 10.11
+  * Bit test operations:	3300 ms  Times/sec: 77.57
+CPU instruction exercises
+  * Data word manipulations:	3083 ms  Times/sec: 83.03
+  * Logical word operations:	2383 ms  Times/sec: 107.42
+  * Skip Jump and Compare :	2367 ms  Times/sec: 108.15
+  * Shifts and Rotation:	10517 ms  Times/sec: 24.34
+  * Integer  arithmetic:	12083 ms  Times/sec: 21.18
+  * Floating point code:	26584 ms  Times/sec: 9.62
+  * Bit test operations:	3284 ms  Times/sec: 77.95
+CPU instruction exercises
+  * Data word manipulations:	3116 ms  Times/sec: 82.15
+  * Logical word operations:	2417 ms  Times/sec: 105.91
+  * Skip Jump and Compare :	2234 ms  Times/sec: 114.59
+  * Shifts and Rotation:	10617 ms  Times/sec: 24.11
+  * Integer  arithmetic:	12100 ms  Times/sec: 21.15
+  * Floating point code:	25367 ms  Times/sec: 10.09
+  * Bit test operations:	3267 ms  Times/sec: 78.35
+CPU instruction exercises
+  * Data word manipulations:	3100 ms  Times/sec: 82.58
+  * Logical word operations:	2384 ms  Times/sec: 107.38
+  * Skip Jump and Compare :	2216 ms  Times/sec: 115.52
+  * Shifts and Rotation:	10600 ms  Times/sec: 24.15
+  * Integer  arithmetic:	12100 ms  Times/sec: 21.15
+  * Floating point code:	25334 ms  Times/sec: 10.10
+  * Bit test operations:	3284 ms  Times/sec: 77.95
+CPU instruction exercises
+  * Data word manipulations:	3117 ms  Times/sec: 82.13
+  * Logical word operations:	2367 ms  Times/sec: 108.15
+  * Skip Jump and Compare :	2217 ms  Times/sec: 115.47
+  * Shifts and Rotation:	16650 ms  Times/sec: 15.37
+  * Integer  arithmetic:	13866 ms  Times/sec: 18.46
+  * Floating point code:	27617 ms  Times/sec: 9.26
+  * Bit test operations:	3283 ms  Times/sec: 77.97
+CPU instruction exercises
+  * Data word manipulations:	3100 ms  Times/sec: 82.58
+  * Logical word operations:	2366 ms  Times/sec: 108.19
+  * Skip Jump and Compare :	2367 ms  Times/sec: 108.15
+  * Shifts and Rotation:	10517 ms  Times/sec: 24.34
+  * Integer  arithmetic:	12100 ms  Times/sec: 21.15
+  * Floating point code:	25100 ms  Times/sec: 10.19
+  * Bit test operations:	3300 ms  Times/sec: 77.57
+CPU instruction exercises
+  * Data word manipulations:	3084 ms  Times/sec: 83.00
+  * Logical word operations:	2417 ms  Times/sec: 105.91
+  * Skip Jump and Compare :	2233 ms  Times/sec: 114.64
+  * Shifts and Rotation:	10634 ms  Times/sec: 24.07
+  * Integer  arithmetic:	12083 ms  Times/sec: 21.18
+  * Floating point code:	25133 ms  Times/sec: 10.18
+  * Bit test operations:	3300 ms  Times/sec: 77.57
+
+Test> quit
+
+
+EXIT
+
+.sys g
+
+TYMSHARE C897-P034/L23 4-25-84 at  1:13:44 on Tue May 15,1984
+5 jobs in use out of 39.  1 detached
+
+Users=5 Det=1 [2,2], Queues: RUN=1 DIO=0 TIO=2 IO=0 SPC=2
+
+DSKB: 158541 Pages free, 5 users
+
+.LOGOUT
+3249.29 tru
+terminal time: 1:12:56
+  c&4
