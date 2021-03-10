@@ -1,0 +1,240 @@
+25-APR-84 22:41:06  ** Session begins: TAKEIT version 47.
+25-APR-84 22:41:06  * Username: CARL
+25-APR-84 22:41:06  * Another job set SCHED 400000 from 0
+25-APR-84 22:41:12  HANG 
+25-APR-84 22:41:14  * Hanging system...
+25-APR-84 22:41:14  ** Session ends.
+
+25-APR-84 22:49:56  ** Session begins: TAKEIT version 47.
+25-APR-84 22:49:56  * Username: CARL
+25-APR-84 22:49:56  * Another job set SCHED 400000 from 0
+25-APR-84 22:50:03  HANG 
+25-APR-84 22:50:05  * Hanging system...
+25-APR-84 22:50:05  ** Session ends.
+
+25-APR-84 22:44:45  ** Session begins: TAKEIT version 47.
+25-APR-84 22:44:45  * Username: CARL
+25-APR-84 22:44:46  * Another job set SCHED 400000 from 0
+25-APR-84 22:44:46  HANG 
+25-APR-84 22:44:53  * Hanging system...
+25-APR-84 22:44:53  ** Session ends.
+
+27-MAR-84 09:06:41  ** Session begins: TAKEIT version 47.
+27-MAR-84 09:06:41  * Username: LOIS
+27-MAR-84 09:06:41  * Another job set SCHED 400000 from 0
+27-MAR-84 09:06:47  RELOAD 
+27-MAR-84 09:07:00  * Countdown = 0 minutes, Grace = 0
+27-MAR-84 09:07:00  * Reloading C930-P034/L21 from (SYS)SYSTEM.SAV
+27-MAR-84 09:07:01  * System super shut (400000 -> 600000)
+27-MAR-84 09:07:01  * Killed job 4, user OPER <XEXEC> SL
+27-MAR-84 09:07:01  * Killed job 5, user  <INITIA> ^C
+27-MAR-84 09:07:03  * Evicted job 2, user OPER <CHKPNT> TS
+27-MAR-84 09:07:06  * Reloading system...
+27-MAR-84 09:07:06  ** Session ends.
+
+27-MAR-84 08:49:14  ** Session begins: TAKEIT version 47.
+27-MAR-84 08:49:14  * Username: LOIS
+27-MAR-84 08:49:16  AUTO 
+27-MAR-84 08:49:32  * Countdown = 0 minutes, Grace = 0
+27-MAR-84 08:49:32  * "To test new microcode tape"
+27-MAR-84 08:49:33  * System super shut (0 -> 600000)
+27-MAR-84 08:49:33  * Killed job 4, user OPER <XEXEC> SL
+27-MAR-84 08:49:35  * Evicted job 2, user OPER <CHKPNT> TS
+27-MAR-84 08:49:37  * Hanging system...
+27-MAR-84 08:49:37  ** Session ends.
+
+20-MAR-84 22:57:20  ** Session begins: TAKEIT version 47.
+20-MAR-84 22:57:20  * Username: WRS
+20-MAR-84 22:57:57  SEND (CARL)
+20-MAR-84 22:59:31  CLEAR 5
+20-MAR-84 22:59:44  QUIT 
+20-MAR-84 22:59:44  ** Session ends.
+
+7-MAR-84 16:10:31  ** Session begins: TAKEIT version 47.
+7-MAR-84 16:10:31  * Username: CARL
+7-MAR-84 16:10:33  KILL 1
+7-MAR-84 16:10:33  * Evicted job 1, user SUTTOND <TAUX> SL
+7-MAR-84 16:10:55  QUIT 
+7-MAR-84 16:10:55  ** Session ends.
+
+5-MAR-84 08:22:06  ** Session begins: TAKEIT version 47.
+5-MAR-84 08:22:06  * Username: SUTTOND
+5-MAR-84 08:22:09  RELOAD 
+5-MAR-84 08:22:27  * Countdown = 1 minute, Grace = 1
+5-MAR-84 08:22:27  * Reloading C930-P034/L21 from (SYS)NEWMON
+5-MAR-84 08:22:27  * Warning: 1 minute /DLS
+5-MAR-84 08:22:27  * System shut (0 -> 400000)
+5-MAR-84 08:23:28  * System super shut (400000 -> 600000)
+5-MAR-84 08:23:28  * Warning: 0 minutes /DLS
+5-MAR-84 08:23:28  * Killed job 4, user OPER <XEXEC> SL
+5-MAR-84 08:23:30  * Evicted job 2, user OPER <CHKPNT> SS
+5-MAR-84 08:23:33  * Reloading system...
+5-MAR-84 08:23:33  ** Session ends.
+
+29-FEB-84 17:56:17  ** Session begins: TAKEIT version 47.
+29-FEB-84 17:56:17  * Username: LOIS
+29-FEB-84 17:56:17  * Another job set SCHED 400000 from 0
+29-FEB-84 17:56:20  RELOAD 
+29-FEB-84 17:56:31  * Countdown = 0 minutes, Grace = 0
+29-FEB-84 17:56:31  * Reloading C930-P034/M from (SYS)SYSTEM.SAV
+29-FEB-84 17:56:32  * System super shut (400000 -> 600000)
+29-FEB-84 17:56:33  * Killed job 3, user OPER <CRSHID> SL
+29-FEB-84 17:56:33  * Killed job 4, user OPER <XEXEC> SL
+29-FEB-84 17:56:33  * Killed job 5, user  <INITIA> ^C
+29-FEB-84 17:56:37  * Evicted job 2, user OPER <CHKPNT> SW
+29-FEB-84 17:56:39  * Reloading system...
+29-FEB-84 17:56:39  ** Session ends.
+
+29-FEB-84 17:34:15  ** Session begins: TAKEIT version 47.
+29-FEB-84 17:34:15  * Username: LOIS
+29-FEB-84 17:34:15  * Another job set SCHED 400000 from 0
+29-FEB-84 17:34:21  AUTO 
+29-FEB-84 17:34:45  * Countdown = 0 minutes, Grace = 0
+29-FEB-84 17:34:45  * "to test microcode"
+29-FEB-84 17:34:46  * System super shut (400000 -> 600000)
+29-FEB-84 17:34:46  * Killed job 4, user OPER <XEXEC> SL
+29-FEB-84 17:34:46  * Killed job 5, user  <INITIA> ^C
+29-FEB-84 17:34:48  * Evicted job 2, user OPER <CHKPNT> TS
+29-FEB-84 17:34:51  * Hanging system...
+29-FEB-84 17:34:51  ** Session ends.
+
+29-FEB-84 16:43:49  ** Session begins: TAKEIT version 47.
+29-FEB-84 16:43:49  * Username: LOIS
+29-FEB-84 16:44:05  AUTO 
+29-FEB-84 16:44:58  * Countdown = 30 minutes, Grace = 2
+29-FEB-84 16:44:58  * "System going down to load new microcode"
+29-FEB-84 16:45:03  * Warning: 30 minutes /LFL
+29-FEB-84 16:45:06  DETACH 
+29-FEB-84 17:05:00  * Warning: 10 minutes /LFL
+29-FEB-84 17:09:59  * Warning: 5 minutes /LFL
+29-FEB-84 17:12:58  * Warning: 2 minutes /LFL
+29-FEB-84 17:14:09  * attached by LOIS
+29-FEB-84 17:14:10  * System shut (0 -> 400000)
+29-FEB-84 17:14:10  * Warning: 1 minute /LFL
+29-FEB-84 17:14:21  DETACH 
+29-FEB-84 17:14:59  * Warning: 0 minutes /LFL
+29-FEB-84 17:14:59  * Killed job 4, user OPER <XEXEC> SL
+29-FEB-84 17:15:02  * Evicted job 2, user OPER <CHKPNT> RN
+29-FEB-84 17:15:04  * Hanging system...
+29-FEB-84 17:15:04  ** Session ends.
+
+27-FEB-84 21:01:52  ** Session begins: TAKEIT version 47.
+27-FEB-84 21:01:52  * Username: KEN
+27-FEB-84 21:01:52  * Another job set SCHED 400000 from 0
+27-FEB-84 21:02:28  HANG 
+27-FEB-84 21:02:31  * Killed job 4, user OPER <XEXEC> SL
+27-FEB-84 21:02:32  * Evicted job 2, user OPER <CHKPNT> TS
+27-FEB-84 21:02:34  * Hanging system...
+27-FEB-84 21:02:34  ** Session ends.
+
+27-FEB-84 19:21:25  ** Session begins: TAKEIT version 47.
+27-FEB-84 19:21:26  * Opername: KEN, Username: KEN
+27-FEB-84 19:21:26  * Another job set SCHED 400000 from 0
+27-FEB-84 19:22:27  QUIT 
+27-FEB-84 19:22:27  ** Session ends.
+
+24-FEB-84 11:41:59  ** Session begins: TAKEIT version 47.
+24-FEB-84 11:41:59  * Username: SUTTOND
+24-FEB-84 11:42:02  RELOAD 
+24-FEB-84 11:42:28  * Countdown = 15 minutes, Grace = 1
+24-FEB-84 11:42:28  * Reloading C930-P034/M from (SYS)NEWMON
+24-FEB-84 11:42:28  * Warning: 15 minutes /DLS
+24-FEB-84 11:47:30  * Warning: 10 minutes /DLS
+24-FEB-84 11:52:33  * Warning: 5 minutes /DLS
+24-FEB-84 11:55:29  * Warning: 2 minutes /DLS
+24-FEB-84 11:56:29  * System shut (0 -> 400000)
+24-FEB-84 11:56:29  * Warning: 1 minute /DLS
+24-FEB-84 11:57:29  * System super shut (400000 -> 600000)
+24-FEB-84 11:57:29  * Warning: 0 minutes /DLS
+24-FEB-84 11:57:30  * Killed job 4, user OPER <XEXEC> SL
+24-FEB-84 11:57:30  * Killed job 6, user HIATT <LISTER> ^C
+24-FEB-84 11:57:35  * Evicted job 2, user OPER <CHKPNT> SW
+24-FEB-84 11:57:38  * Reloading system...
+24-FEB-84 11:57:38  ** Session ends.
+
+15-FEB-84 14:32:03  ** Session begins: TAKEIT version 47.
+15-FEB-84 14:32:03  * Username: SUTTOND
+15-FEB-84 14:33:01  AUTO 
+15-FEB-84 14:33:27  * Countdown = 30 minutes, Grace = 1
+15-FEB-84 14:33:27  * "System going down to reload monitor."
+15-FEB-84 14:33:33  * Warning: 30 minutes /DLS
+15-FEB-84 14:53:36  * Warning: 10 minutes /DLS
+15-FEB-84 14:58:30  * Warning: 5 minutes /DLS
+15-FEB-84 15:01:28  * Warning: 2 minutes /DLS
+15-FEB-84 15:02:28  * System shut (0 -> 400000)
+15-FEB-84 15:02:28  * Warning: 1 minute /DLS
+15-FEB-84 15:03:28  * System super shut (400000 -> 600000)
+15-FEB-84 15:03:28  * Warning: 0 minutes /DLS
+15-FEB-84 15:03:28  * Killed job 4, user OPER <XEXEC> SL
+15-FEB-84 15:03:46  * Killed job 5, user KEN <SY> ^C
+15-FEB-84 15:03:51  * Evicted job 2, user OPER <CHKPNT> SW
+15-FEB-84 15:03:52  * Hanging system...
+15-FEB-84 15:03:52  ** Session ends.
+
+14-FEB-84 07:55:17  ** Session begins: TAKEIT version 47.
+14-FEB-84 07:55:17  * Username: KEN
+14-FEB-84 07:55:25  KILL 5
+14-FEB-84 07:55:25  * Killed job 5, user  <INITIA> ^C
+14-FEB-84 07:55:28  QUIT 
+14-FEB-84 07:55:28  ** Session ends.
+
+7-FEB-84 09:21:29  ** Session begins: TAKEIT version 47.
+7-FEB-84 09:21:29  * Username: SUTTOND
+7-FEB-84 09:21:32  RELOAD 
+7-FEB-84 09:21:49  * Countdown = 5 minutes, Grace = 1
+7-FEB-84 09:21:49  * Reloading C930-P034/M from (SYS)NEWMON
+7-FEB-84 09:21:49  * Warning: 5 minutes /DLS
+7-FEB-84 09:24:50  * Warning: 2 minutes /DLS
+7-FEB-84 09:25:50  * System shut (0 -> 400000)
+7-FEB-84 09:25:50  * Warning: 1 minute /DLS
+7-FEB-84 09:26:49  * System super shut (400000 -> 600000)
+7-FEB-84 09:26:49  * Warning: 0 minutes /DLS
+7-FEB-84 09:26:49  * Killed job 4, user OPER <XEXEC> SL
+7-FEB-84 09:26:52  * Evicted job 2, user OPER <CHKPNT> TS
+7-FEB-84 09:26:54  * Reloading system...
+7-FEB-84 09:26:54  ** Session ends.
+
+1-FEB-84 11:20:10  ** Session begins: TAKEIT version 47.
+1-FEB-84 11:20:10  * Username: SUTTOND
+1-FEB-84 11:20:13  RELOAD 
+1-FEB-84 11:20:41  * Countdown = 30 minutes, Grace = 1
+1-FEB-84 11:20:41  * Reloading C930-P034/L17 from (SYS)NEWMON
+1-FEB-84 11:20:45  * Warning: 30 minutes /DLS
+1-FEB-84 11:40:46  * Warning: 10 minutes /DLS
+1-FEB-84 11:45:43  * Warning: 5 minutes /DLS
+1-FEB-84 11:48:41  * Warning: 2 minutes /DLS
+1-FEB-84 11:49:41  * System shut (0 -> 400000)
+1-FEB-84 11:49:41  * Warning: 1 minute /DLS
+1-FEB-84 11:50:41  * System super shut (400000 -> 600000)
+1-FEB-84 11:50:41  * Warning: 0 minutes /DLS
+1-FEB-84 11:50:42  * Killed job 4, user OPER <XEXEC> SL
+1-FEB-84 11:5 * Evicted job 2, user OPER <CHKPNT> TS
+1-FEB-84 11:50:47  * Reloading system...
+1-FEB-84 11:50:47  ** Session ends.
+
+1-FEB-84 08:46:14  ** Session begins: TAKEIT version 47.
+1-FEB-84 08:46:14  * Username: SUTTOND
+1-FEB-84 08:46:15  * Another job set SCHED 400000 from 0
+1-FEB-84 08:46:17  AUTO 
+1-FEB-84 08:46:38  RELOAD 
+1-FEB-84 08:46:55  * Countdown = 0 minutes, Grace = 1
+1-FEB-84 08:46:55  * Reloading C930-P034/L17 from (SYS)NEWMON
+1-FEB-84 08:46:55  * System super shut (400000 -> 600000)
+1-FEB-84 08:46:56  * Killed job 4, user OPER <XEXEC> SL
+1-FEB-84 08:46:58  * Evicted job 2, user OPER <CHKPNT> SW
+1-FEB-84 08:47:01  * Reloading system...
+1-FEB-84 08:47:01  ** Session ends.
+
+1-FEB-84 08:32:56  ** Session begins: TAKEIT version 47.
+1-FEB-84 08:32:56  * Username: LOIS
+1-FEB-84 08:32:56  * Another job set SCHED 400000 from 0
+1-FEB-84 08:33:06  RELOAD 
+1-FEB-84 08:33:20  * Countdown = 0 minutes, Grace = 0
+1-FEB-84 08:33:20  * Reloading C930-P034/L17 from (SYS)NEWMON.SAV
+1-FEB-84 08:33:20  * System super shut (400000 -> 600000)
+1-FEB-84 08:33:20  * Killed job 4, user OPER <XEXEC> SL
+1-FEB-84 08:33:22  * Evicted job 2, user OPER <CHKPNT> TS
+1-FEB-84 08:33:24  * Reloading system...
+1-FEB-84 08:33:24  ** Session ends.
+
+@?±
